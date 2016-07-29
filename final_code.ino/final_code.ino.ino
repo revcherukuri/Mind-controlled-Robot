@@ -129,7 +129,7 @@ void loop() {
           i++;
           attention = payloadData[i];
           ledDisplay(); //call led method, to display attention value
-          Serial.print("attention= ");
+          Serial.print("attention= ");//display attention value
           Serial.println(attention, DEC);
           moveServo(); //call servo method
           break;
